@@ -1,0 +1,146 @@
+/* EVERYTHING */
+* {
+    margin: 0px;
+}
+
+/* BODY */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 160px;
+}
+
+header h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0px;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+}
+
+header li {
+    color: lightgray;
+    padding-left: 16px;
+}
+
+/* HERO */
+
+.hero {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 160px 120px;
+}
+
+.hero .hero-left {
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+}
+
+.hero .hero-left h1 {
+    margin-bottom: 0px;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero .hero-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0px;
+}
+
+.hero button {
+    background-color: #3B82F6;
+    width: 104px;
+    border-radius: 6px;
+    border: 0px;
+    color: white;
+    padding: 8px 0px;
+}
+
+.hero img {
+    width: 640px;
+}
+
+/* WHITE SECTION */
+
+.section-white {
+    margin: 64px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-white h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.box-row {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+}
+
+.box-unit {
+    width: 184px;
+    color: gray;
+    text-align: center;
+}
+
+.section-white .square {
+    border: 4px #3882F6 solid;
+    border-radius: 16px;
+    height: 184px;
+}
+
+/* GRAY SECTION */
+
+.section-gray {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 440px;
+}
+
+.section-gray .quote {
+    font-size: 36px;
+    font-weight: 200;
+    color: #1F2937;
+}
+
+.section-gray .quote-attribution {
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+/* SECTION CTA */
+
+
+.section-cta {
+    background-color: #3B82F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 160px;
+}
